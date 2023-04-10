@@ -1,0 +1,13 @@
+.button{
+    padding-left:8%;
+    padding-top:1%
+}
+    button{
+        background-color:#C19770;
+        border:none;
+        color:white;
+        border-radius:20px;
+        height:30px;
+        width:100px;
+
+    }

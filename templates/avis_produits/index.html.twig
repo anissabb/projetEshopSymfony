@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+
+{{ encore_entry_link_tags ('avisstyle') }}
+
+{% endblock %}
+
+
+
+
+{% block body %}
+
+
+<div class="stars">
+  <a>⭐</a>
+  <a>⭐</a>
+  <a>⭐</a>
+  <a>⭐</a>
+  <a>⭐</a>
+</div>
+
+
+    <div class="form">
+    {{form_start (AvisForm)}}
+    {{form_row (AvisForm.commentaire)}}
+    {{form_end (AvisForm,{render_rest:false})}}
+    </br>
+     <div class="button">
+            <button type="submit" class="btn">Envoyer</button>
+        </div>
+    </div>
+
+
+
+
+{% endblock %}
+
+
+{% block javascripts %}
+{# Pour utiliser ajax #}
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+{{encore_entry_script_tags('avis')}}
+  {% endblock %}

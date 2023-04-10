@@ -1,0 +1,136 @@
+.catalogue{
+    margin-top:8%;
+    margin-left:10%;
+    width:100px;
+    height:100px;
+    font-family:"Didot"
+    }
+  .produit img{
+    width:100px;
+    height:100px;
+    }
+    .card-body>img{
+      width:80%
+    }
+    .card{
+      float:left;
+      width:20%;
+      margin-left:9%;
+      border-color:white;
+      
+    }
+    .card-title{
+      margin-top:10%;
+      text-decoration:none;
+      color:black;
+      font-size:20px;
+      
+      
+    }
+
+    #cardbody{
+      width:100%
+    }
+    #cardbodyimg{
+      width:100%
+    }
+    .button{
+      border: none;
+      width: 42%;
+      height: 40px;
+      display: inline-block;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      background-color:#C19770;
+      margin-top:20px;
+     
+    }
+    .ajouter{
+      color:black;
+      text-decoration: none;
+      margin-left:25%;
+      padding-top:20px;
+      font-size:20px;
+      font-family:"Didot";
+     
+
+    }
+    .ajouter:hover{
+      color:black;
+    }
+
+  .link-dark{
+    text-decoration:none;
+  }
+  .link-dark:hover{
+    text-decoration-line:underline;
+    text-decoration-color:#C19770;
+   
+  }
+.logo{
+width:100px;
+height:100px;
+}
+.images{
+float:left;
+width:100%;
+
+}
+.images>img{
+float:left;
+margin-top:15%;
+margin-left:5%;
+width:30%;
+height:30%;
+
+}
+.images >img:hover{
+opacity:0.7
+}
+.text{
+float:left;
+margin-left:10%;
+
+margin-top:20%;
+}
+.text h1{
+float:left;
+font-size:25px;
+}
+.text h3{
+font-size:20px;
+}
+
+.text>a{
+color:black;
+}
+.text>a:hover{
+color:#C19770;
+}
+.footer{
+background-color:#e4dcd1;
+height:300px;
+margin-top:70%;
+}
+.footer>img{
+width:100px;
+height:100px;
+
+}
+.infos{
+float:left;
+margin-left:10%;
+}
+.infos2{
+float:left;
+margin-left:10%;
+}
+.infos3{
+float:left;
+margin-left:10%;
+}
+.etoiles{
+  padding-left:20px;
+  margin-bottom:20px;
+}

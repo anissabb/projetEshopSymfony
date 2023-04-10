@@ -1,0 +1,44 @@
+
+.panier{
+    margin-top:150px;
+    margin-left:50px;
+}
+tbody{
+    width:100%
+}
+td{
+    padding-left:30px
+}
+.produitImage{
+    width:50px;
+}
+.total{
+    
+    padding-left:10%;
+}
+.total>h3{
+    float:left;
+    padding-left:5%;
+}
+.total>h4{
+    float:left;
+    padding-left:51%
+}
+
+.suivant{
+    margin-top:100px;
+    margin-left:64%
+}
+.suivant>a{
+    display:inline-block;
+    height:40px;
+    width:100px;
+    padding-left:4%;
+    padding-top:1%;
+    background-color:#C19770;
+    color:white;
+    text-decoration:none;
+    border-radius:20px;
+
+}
+
